@@ -1,4 +1,4 @@
-// src/components/home/FeaturedCollection.tsx
+// src/components/productos/vestidosCollection.tsx
 import ProductGrid from '@/components/ui/ProductGrid';
 
 // Definimos el tipo de producto
@@ -71,7 +71,7 @@ const dressProducts: Product[] = [
 ];
 
 // Ahora el componente es mucho más simple
-export default function FeaturedCollection() {
+export default function VestidosCollection() {
     return (
         <ProductGrid
             title="Nuestra Colección de Vestidos"
