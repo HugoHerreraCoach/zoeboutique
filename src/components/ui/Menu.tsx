@@ -35,17 +35,17 @@ export default function Menu() {
                         ))}
                         <Link href="/cesta" className="flex items-center gap-2 text-gray-600 text-xl hover:text-black transition-colors">
                             Cesta
-                            <BsHandbag size={18} />
+                            <BsHandbag size={18} className=' text-black'/>
                         </Link>
                     </nav>
 
                     {/* Iconos Móvil */}
-                    <div className="flex items-center gap-4 md:hidden">
+                    <div className="flex items-centertext-black gap-4 md:hidden">
                         <Link href="/cesta">
-                            <BsHandbag size={22} />
+                            <BsHandbag size={22} className=' text-black'/>
                         </Link>
                         <button onClick={() => setIsMenuOpen(true)}>
-                            <CiMenuFries size={28} />
+                            <CiMenuFries size={28} className=' text-black'/>
                         </button>
                     </div>
                 </div>
@@ -59,9 +59,9 @@ export default function Menu() {
                         onClick={() => setIsMenuOpen(false)}
                     ></div>
                     <div className="absolute right-0 top-0 h-full w-4/5 max-w-xs bg-white shadow-xl">
-                        <div className="flex justify-end p-4">
+                        <div className="flex justify-end p-4 text-black">
                             <button onClick={() => setIsMenuOpen(false)}>
-                                <IoClose size={32} />
+                                <IoClose size={32} className=' text-black'/>
                             </button>
                         </div>
                         {/* Aplicamos font-sans a los enlaces del menú móvil */}

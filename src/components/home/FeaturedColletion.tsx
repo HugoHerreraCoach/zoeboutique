@@ -14,59 +14,45 @@ type Product = {
 const dressProducts: Product[] = [
     {
         id: 1,
-        name: 'Conjunto Cielo Sereno',
-        price: 65.00,
-        imageUrl: '/images/home/vestido1.jpg',
+        name: 'Vestido Rojo Jardín',
+        price: 52.00,
+        imageUrl: '/images/home/vestido2.jpg',
         href: '/productos/enterizo-alma-libre',
     },
     {
         id: 2,
-        name: 'Vestido Rojo Jardín',
-        price: 52.00,
-        imageUrl: '/images/home/vestido2.jpg',
-        href: '/productos/vestido-rojo-jardin',
+        name: 'Enterizo deportivo Azul',
+        price: 50.00,
+        imageUrl: '/images/home/deporte6.jpg',
+        href: '/productos/enterizo-rojo-fuego',
     },
     {
         id: 3,
-        name: 'Vestido de Verano (Beige)',
-        price: 52.00,
-        imageUrl: '/images/home/vestido3.jpg',
-        href: '/productos/vestido-verano-beige',
+        name: 'chaqueta Denim rebelde',
+        price: 55.00,
+        imageUrl: '/images/home/casaca2.jpg',
+        href: '/productos/casaca-rojo-jardin',
     },
     {
         id: 4,
-        name: 'Enterizo rojo fuego',
-        price: 55.00,
-        imageUrl: '/images/home/vestido4.jpg',
+        name: 'Jeans black',
+        price: 48.00,
+        imageUrl: '/images/productos/pantalon5.jpg',
         href: '/productos/enterizo-rojo-fuego',
     },
     {
         id: 5,
-        name: 'Enterizo Esmeralda',
-        price: 55.00,
-        imageUrl: '/images/home/vestido5.jpg',
-        href: '/productos/enterizo-esmeralda',
+        name: 'Vestido camisero',
+        price: 58.00,
+        imageUrl: '/images/productos/exclusivo4.jpg',
+        href: '/productos/enterizo-rojo-fuego',
     },
     {
         id: 6,
-        name: 'Vestido Verde Limón',
-        price: 52.00,
-        imageUrl: '/images/home/vestido6.jpg',
-        href: '/productos/vestido-verde-limon',
-    },
-    {
-        id: 7,
-        name: 'Vestido Fucsia Jardin',
-        price: 55.00,
-        imageUrl: '/images/home/vestido7.jpg',
-        href: '/productos/vestido-fucsia-jardin',
-    },
-    {
-        id: 8,
-        name: 'Vestido Noche de Flores',
-        price: 55.00,
-        imageUrl: '/images/home/vestido8.jpg',
-        href: '/productos/vestido-noche-flores',
+        name: 'Vestido clásico moderno',
+        price: 75.00,
+        imageUrl: '/images/productos/exclusivo5.jpg',
+        href: '/productos/enterizo-rojo-fuego',
     },
 ];
 
@@ -74,7 +60,7 @@ const dressProducts: Product[] = [
 export default function FeaturedCollection() {
     return (
         <ProductGrid
-            title="Nuestra Colección de Vestidos"
+            title="Nuestra Colección"
             addBottomPadding={true}
             products={dressProducts}
             categoryHref="/productos"
