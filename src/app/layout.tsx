@@ -33,7 +33,6 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body
-        // 4. Añade las nuevas variables de fuente a la clase del body
         className={`${cormorant.variable} ${openSans.variable} antialiased`}
       >
         <Menu />

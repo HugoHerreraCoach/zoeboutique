@@ -49,7 +49,7 @@ type ProductGridProps = {
 export default function ProductGrid({ title, products, categoryHref, buttonText, addBottomPadding = false }: ProductGridProps) {
     return (
         // Aplicamos padding inferior solo si la prop es true
-        <section className={`pt-16 sm:pt-24 ${addBottomPadding ? 'pb-16 sm:pb-24' : ''}`}>
+        <section className={`pt-16 sm:pt-24 bg-white ${addBottomPadding ? 'pb-16 sm:pb-24' : ''}`}>
             <div className="container mx-auto px-4">
                 <h2 className="font-serif text-3xl sm:text-4xl text-center uppercase tracking-widest text-gray-800">
                     {title}
