@@ -5,6 +5,7 @@ import VestidosCollection from "@/components/productos/VestidosCollection";
 import SportswearCollection from "@/components/productos/SportswearCollection";
 import CasacasCollection from "@/components/productos/CasacasSection";
 import PantalonesCollection from "@/components/productos/pantalonesCollection"; 
+import ExclusivoCollection from "@/components/productos/ExclusivoCollection";
 
 
 export default function Productos() {
@@ -15,6 +16,7 @@ export default function Productos() {
             <SportswearCollection />
             <CasacasCollection />
             <PantalonesCollection />
+            <ExclusivoCollection />
         </>
     );
 }

@@ -70,7 +70,7 @@ export default function Menu() {
                                 <Link
                                     key={link.href}
                                     href={link.href}
-                                    className="py-3 text-lg border-b border-gray-200"
+                                    className="py-3 text-lg border-b text-black border-gray-200"
                                     onClick={() => setIsMenuOpen(false)}
                                 >
                                     {link.label}
