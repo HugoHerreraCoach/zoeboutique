@@ -6,7 +6,6 @@ import { useState } from 'react';
 import Link from 'next/link';
 import { CiMenuFries } from 'react-icons/ci';
 import { IoClose } from 'react-icons/io5';
-import { BsHandbag } from 'react-icons/bs';
 
 // Los enlaces ahora usarán la fuente Open Sans
 const navLinks = [
@@ -33,17 +32,10 @@ export default function Menu() {
                                 {link.label}
                             </Link>
                         ))}
-                        <Link href="/cesta" className="flex items-center gap-2 text-gray-600 text-xl hover:text-black transition-colors">
-                            Cesta
-                            <BsHandbag size={18} className=' text-black'/>
-                        </Link>
                     </nav>
 
                     {/* Iconos Móvil */}
                     <div className="flex items-centertext-black gap-4 md:hidden">
-                        <Link href="/cesta">
-                            <BsHandbag size={22} className=' text-black'/>
-                        </Link>
                         <button onClick={() => setIsMenuOpen(true)}>
                             <CiMenuFries size={28} className=' text-black'/>
                         </button>
