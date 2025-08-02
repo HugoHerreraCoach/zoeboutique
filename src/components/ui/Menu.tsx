@@ -12,8 +12,6 @@ import { BsHandbag } from 'react-icons/bs';
 const navLinks = [
     { href: '/', label: 'Inicio' },
     { href: '/productos', label: 'Productos' },
-    { href: '/sobre-nosotros', label: 'Sobre nosotros' },
-    { href: '/contacto', label: 'Contacto' },
 ];
 
 export default function Menu() {
