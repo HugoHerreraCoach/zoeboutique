@@ -60,10 +60,10 @@ const sportswearProducts: Product[] = [
 export default function CasacasCollection() {
     return (
         <ProductGrid
-            title="Colección Deportiva"
+            title="Colección de Casacas"
             products={sportswearProducts}
-            categoryHref="/deportiva"
-            buttonText="Ver todo lo deportivo"
+            categoryHref="https://wa.link/h5sr1l"
+            buttonText="Comprar casaca"
         />
     );
 }

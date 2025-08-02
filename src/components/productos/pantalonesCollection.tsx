@@ -77,8 +77,8 @@ export default function PantalonesCollection() {
             title="Colección de Pantalones"
             addBottomPadding={true}
             products={sportswearProducts}
-            categoryHref="/deportiva"
-            buttonText="Ver todo lo deportivo"
+            categoryHref="https://wa.link/ypb7xv"
+            buttonText="Comprar pantalón"
         />
     );
 }

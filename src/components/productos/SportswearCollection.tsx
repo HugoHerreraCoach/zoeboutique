@@ -76,8 +76,8 @@ export default function SportswearCollection() {
         <ProductGrid
             title="Colección Deportiva"
             products={sportswearProducts}
-            categoryHref="/deportiva"
-            buttonText="Ver todo lo deportivo"
+            categoryHref="https://wa.link/c3dbog"
+            buttonText="Comprar Prenda Deportiva"
         />
     );
 }

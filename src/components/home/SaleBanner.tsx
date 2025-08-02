@@ -27,7 +27,7 @@ export default function SaleBanner() {
                         EN TU PRIMERA COMPRA
                     </p>
                     <Link
-                        href="/ofertas"
+                        href="https://wa.link/9kmon9"
                         className="font-sans mt-6 bg-gray-900 bg-opacity-80 text-white py-2 px-8 text-lg lg:text-xl tracking-widest
                        hover:bg-opacity-100 transition-all duration-300 ease-in-out
                        focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50"
