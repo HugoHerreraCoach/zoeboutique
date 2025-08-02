@@ -56,8 +56,8 @@ export default function ExclusivoCollection() {
             title="Colección Exclusiva"
             addBottomPadding={true}
             products={sportswearProducts}
-            categoryHref="https://wa.link/ypb7xv"
-            buttonText="Comprar pantalón"
+            categoryHref="https://wa.link/ouzc8l"
+            buttonText="Comprar Vestido Exclusivo"
         />
     );
 }
