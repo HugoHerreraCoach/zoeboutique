@@ -25,7 +25,7 @@ export default function HeroSection() {
                     ZOE BOUTIQUE
                 </h1>
                 <p className="mt-4 mb-8 max-w-2xl text-lg md:text-xl lg:text-2xl font-sans">
-                    Descubre colecciones únicas que resaltan tu belleza. Joyería fina para cada ocasión.
+                    Conoce toda nuestra colección de productos.
                 </p>
 
                 {/* Botón de Acción */}
