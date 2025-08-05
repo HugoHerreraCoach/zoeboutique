@@ -77,7 +77,7 @@ export default function PantalonesCollection() {
             title="Colección de Pantalones"
             addBottomPadding={true}
             products={sportswearProducts}
-            categoryHref="https://wa.link/ypb7xv"
+            categoryHref="https://wa.link/ktpirk"
             buttonText="Comprar pantalón"
         />
     );

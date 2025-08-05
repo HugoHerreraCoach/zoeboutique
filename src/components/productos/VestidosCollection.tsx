@@ -76,7 +76,7 @@ export default function VestidosCollection() {
         <ProductGrid
             title="Nuestra Colección de Vestidos"
             products={dressProducts}
-            categoryHref="https://wa.link/44ycj6"
+            categoryHref="https://wa.link/d66buz"
             buttonText="Comprar vestido"
         />
     );

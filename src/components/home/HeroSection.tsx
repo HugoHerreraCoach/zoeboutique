@@ -30,7 +30,7 @@ export default function HeroSection() {
 
                 {/* Botón de Acción */}
                 <Link
-                    href="https://wa.link/ddgydl"
+                    href="https://wa.link/pxluiq"
                     className="font-sans bg-white text-gray-900 py-3 px-8 tracking-widest text-lg lg:text-xl
                      hover:bg-opacity-90 transition-all duration-300 ease-in-out
                      focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50"

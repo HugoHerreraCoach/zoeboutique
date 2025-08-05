@@ -62,7 +62,7 @@ export default function CasacasCollection() {
         <ProductGrid
             title="Colección de Casacas"
             products={sportswearProducts}
-            categoryHref="https://wa.link/h5sr1l"
+            categoryHref="https://wa.link/6hym5m"
             buttonText="Comprar casaca"
         />
     );
